@@ -1,0 +1,14 @@
+# dataidea-js:
+#   filter: rjsmin
+#   output: ckanext-dataidea/%(version)s-dataidea.js
+#   contents:
+#     - js/dataidea.js
+#   extra:
+#     preload:
+#       - base/main
+
+# dataidea-css:
+#   filter: cssrewrite
+#   output: ckanext-dataidea/%(version)s-dataidea.css
+#   contents:
+#     - css/dataidea.css
